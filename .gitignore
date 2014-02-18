@@ -18,3 +18,4 @@ main
 *.lo
 stamp-h1
 check_money
+test-results.xml
