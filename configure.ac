@@ -3,6 +3,7 @@
 # Prelude.
 AC_PREREQ([2.59])
 AC_INIT([Money], [0.3], [check-devel AT lists.sourceforge.net])
+CFLAGS="$CFLAGS -std=c99"
 
 # unique source file --- primitive safety check 
 AC_CONFIG_SRCDIR([src/money.c])
