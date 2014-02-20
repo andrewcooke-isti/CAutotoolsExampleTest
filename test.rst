@@ -23,6 +23,7 @@ Echo Value   [Documentation]  A valid value is
                               read and echoed.
 \            ${output} =      Run                src/main USD 10
 \            Should Be Equal  ${output}          USD 10
+\            Should Be Equal  ${output}          BAAAADDDD
 ===========  ===============  =================  ================
 
 For the second, we expect an error:

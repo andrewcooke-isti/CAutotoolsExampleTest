@@ -19,3 +19,9 @@ main
 stamp-h1
 check_money
 test-results.xml
+env
+log.html
+output.xml
+report.html
+*~
+
