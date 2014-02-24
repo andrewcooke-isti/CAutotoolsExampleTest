@@ -23,7 +23,6 @@ Echo Value   [Documentation]  A valid value is
                               read and echoed.
 \            ${output} =      Run                src/main USD 10
 \            Should Be Equal  ${output}          USD 10
-\            Should Be Equal  ${output}          BAAAADDDD
 ===========  ===============  =================  ================
 
 For the second, we expect an error:
@@ -34,7 +33,7 @@ For the second, we expect an error:
 ===========  ===============  =================  ===================
 Bad Value    [Documentation]  An invalid value
                               is rejected
-\            ${output} =      Run                src/main USD 10X
-\            Should Be Equal  ${output}          Could not parse 10X
+\            ${output} =      Run                src/main USD dog
+\            Should Be Equal  ${output}          Could not parse dog
 ===========  ===============  =================  ===================
 
