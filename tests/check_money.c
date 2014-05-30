@@ -7,8 +7,8 @@ Money *five_dollars;
 void
 setup (void)
 {
-  // five_dollars = money_create (5, "USD");
-  five_dollars = money_create (5, "DOGECOIN");
+  five_dollars = money_create (5, "USD");
+  // five_dollars = money_create (5, "DOGECOIN");
 }
 
 void
